@@ -1,14 +1,15 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <Header></Header>
-    <router-view />
+    <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  //font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

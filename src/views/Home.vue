@@ -1,17 +1,21 @@
 <template>
-  <div class="home container">
-    
+  <div class="home">
+    <Header></Header>
+    <Products></Products>
+    <AboutUs></AboutUs>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
-  components: {
-    HelloWorld
+  name: "Home",
+  props: {
+    msg: String
   }
 };
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+
+</style>
