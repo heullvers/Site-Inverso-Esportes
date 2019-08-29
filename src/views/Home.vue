@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Navbar></Navbar>
     <Header></Header>
     <Products></Products>
     <AboutUs></AboutUs>
