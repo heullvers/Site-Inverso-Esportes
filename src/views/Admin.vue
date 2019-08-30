@@ -88,17 +88,7 @@
             </nav>
             <!-- page-content  -->
             <main class="page-content pt-2">
-                <div id="overlay" class="overlay"></div>
-                <div class="container-fluid p-5">
-                    <div class="row">
-                        <div class="form-group col-md-12">
-                            <h2>Pro Sidebar</h2>
-                            <p>This is a responsive sidebar template with dropdown menu based on bootstrap framework.</p>
-
-                        </div>
-                    </div>
-                    
-                </div>
+                <router-view></router-view>
             </main>
             <!-- page-content" -->
         </div>
@@ -122,5 +112,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+    .sidebar-wrapper .sidebar-content{
+        overflow-y: auto;
+    }
 </style>

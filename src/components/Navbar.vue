@@ -21,6 +21,9 @@
                   <router-link to="/about" class="nav-link" href="#">About</router-link>
               </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <a class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#login">Entrar</a>
+            </form>
         </div>
     </nav>
     
@@ -32,6 +35,9 @@ export default {
   name: "Navbar",
   props: {
     msg: String
+  },
+  components: {
+    
   }
 };
 </script>
